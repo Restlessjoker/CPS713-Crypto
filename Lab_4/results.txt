@@ -1,0 +1,699 @@
+results.txt
+Please enter e(encrypt) or d(decrypt): e
+Please enter a key within the range of 0-255: 56
+Please enter plaintext (MAX: 500 chars): ThisIsCTREncryption
+	COUNTER ENCRYPTED: 11110000  
+Round Key 0 -> 100010
+Iteration 0 -> L0: 0000
+Iteration 0 -> R0: 0111
+Round Key 1 -> 000110
+Iteration 1 -> L1: 0111
+Iteration 1 -> R1: 0010
+Round Key 2 -> 110001
+Iteration 2 -> L2: 0010
+Iteration 2 -> R2: 1110
+Round Key 3 -> 001010
+Iteration 3 -> L3: 1110
+Iteration 3 -> R3: 1111
+Round Key 4 -> 000101
+Iteration 4 -> L4: 1111
+Iteration 4 -> R4: 1011
+Round Key 5 -> 110000
+Iteration 5 -> L5: 1011
+Iteration 5 -> R5: 0111
+Round Key 6 -> 001110
+Iteration 6 -> L6: 0111
+Iteration 6 -> R6: 0100
+Round Key 7 -> 010001
+Iteration 7 -> L7: 0100
+Iteration 7 -> R7: 1101
+Round Key 8 -> 010001
+Iteration 8 -> L8: 1101
+Iteration 8 -> R8: 0111
+Round Key 9 -> 101000
+Iteration 9 -> L9: 0111
+Iteration 9 -> R9: 1111
+Round Key 10 -> 000110
+Iteration 10 -> L10: 1111
+Iteration 10 -> R10: 0010
+Round Key 11 -> 110001
+Iteration 11 -> L11: 0010
+Iteration 11 -> R11: 0110
+Round Key 12 -> 001010
+Iteration 12 -> L12: 0110
+Iteration 12 -> R12: 0000
+Round Key 13 -> 000101
+Iteration 13 -> L13: 0000
+Iteration 13 -> R13: 1101
+Round Key 14 -> 110000
+Iteration 14 -> L14: 1101
+Iteration 14 -> R14: 0001
+Round Key 15 -> 010100
+Iteration 15 -> L15: 0001
+Iteration 15 -> R15: 0110
+	COUNTER ENCRYPTED: 11110001  
+Round Key 0 -> 100010
+Iteration 0 -> L0: 0001
+Iteration 0 -> R0: 1000
+Round Key 1 -> 000110
+Iteration 1 -> L1: 1000
+Iteration 1 -> R1: 0111
+Round Key 2 -> 110001
+Iteration 2 -> L2: 0111
+Iteration 2 -> R2: 0011
+Round Key 3 -> 001010
+Iteration 3 -> L3: 0011
+Iteration 3 -> R3: 0110
+Round Key 4 -> 000101
+Iteration 4 -> L4: 0110
+Iteration 4 -> R4: 0010
+Round Key 5 -> 110000
+Iteration 5 -> L5: 0010
+Iteration 5 -> R5: 1010
+Round Key 6 -> 001110
+Iteration 6 -> L6: 1010
+Iteration 6 -> R6: 1110
+Round Key 7 -> 010001
+Iteration 7 -> L7: 1110
+Iteration 7 -> R7: 0111
+Round Key 8 -> 010001
+Iteration 8 -> L8: 0111
+Iteration 8 -> R8: 1110
+Round Key 9 -> 101000
+Iteration 9 -> L9: 1110
+Iteration 9 -> R9: 1110
+Round Key 10 -> 000110
+Iteration 10 -> L10: 1110
+Iteration 10 -> R10: 0100
+Round Key 11 -> 110001
+Iteration 11 -> L11: 0100
+Iteration 11 -> R11: 0111
+Round Key 12 -> 001010
+Iteration 12 -> L12: 0111
+Iteration 12 -> R12: 0000
+Round Key 13 -> 000101
+Iteration 13 -> L13: 0000
+Iteration 13 -> R13: 1100
+Round Key 14 -> 110000
+Iteration 14 -> L14: 1100
+Iteration 14 -> R14: 0010
+Round Key 15 -> 010100
+Iteration 15 -> L15: 0010
+Iteration 15 -> R15: 0101
+	COUNTER ENCRYPTED: 11110002  
+Round Key 0 -> 100010
+Iteration 0 -> L0: 0002
+Iteration 0 -> R0: 0111
+Round Key 1 -> 000110
+Iteration 1 -> L1: 0111
+Iteration 1 -> R1: 0012
+Round Key 2 -> 110001
+Iteration 2 -> L2: 0012
+Iteration 2 -> R2: 1110
+Round Key 3 -> 001010
+Iteration 3 -> L3: 1110
+Iteration 3 -> R3: 1113
+Round Key 4 -> 000101
+Iteration 4 -> L4: 1113
+Iteration 4 -> R4: 1011
+Round Key 5 -> 110000
+Iteration 5 -> L5: 1011
+Iteration 5 -> R5: 0113
+Round Key 6 -> 001110
+Iteration 6 -> L6: 0113
+Iteration 6 -> R6: 0100
+Round Key 7 -> 010001
+Iteration 7 -> L7: 0100
+Iteration 7 -> R7: 1103
+Round Key 8 -> 010001
+Iteration 8 -> L8: 1103
+Iteration 8 -> R8: 0111
+Round Key 9 -> 101000
+Iteration 9 -> L9: 0111
+Iteration 9 -> R9: 1113
+Round Key 10 -> 000110
+Iteration 10 -> L10: 1113
+Iteration 10 -> R10: 0010
+Round Key 11 -> 110001
+Iteration 11 -> L11: 0010
+Iteration 11 -> R11: 0112
+Round Key 12 -> 001010
+Iteration 12 -> L12: 0112
+Iteration 12 -> R12: 0000
+Round Key 13 -> 000101
+Iteration 13 -> L13: 0000
+Iteration 13 -> R13: 1103
+Round Key 14 -> 110000
+Iteration 14 -> L14: 1103
+Iteration 14 -> R14: 0001
+Round Key 15 -> 010100
+Iteration 15 -> L15: 0001
+Iteration 15 -> R15: 0112
+|*------------------------------*|
+ ENCRYPTED PLAINTEXT: dXYByBrdbu_SBH@EY_^  
+|*------------------------------*|
+Please enter e(encrypt) or d(decrypt): d
+Please enter a key within the range of 0-255: 56
+Please enter ciphertext (MAX: 500 chars): dXYByBrdbu_SBH@EY_^
+	COUNTER ENCRYPTED: 11110000  
+Round Key 0 -> 100010
+Iteration 0 -> L0: 0000
+Iteration 0 -> R0: 0111
+Round Key 1 -> 000110
+Iteration 1 -> L1: 0111
+Iteration 1 -> R1: 0010
+Round Key 2 -> 110001
+Iteration 2 -> L2: 0010
+Iteration 2 -> R2: 1110
+Round Key 3 -> 001010
+Iteration 3 -> L3: 1110
+Iteration 3 -> R3: 1111
+Round Key 4 -> 000101
+Iteration 4 -> L4: 1111
+Iteration 4 -> R4: 1011
+Round Key 5 -> 110000
+Iteration 5 -> L5: 1011
+Iteration 5 -> R5: 0111
+Round Key 6 -> 001110
+Iteration 6 -> L6: 0111
+Iteration 6 -> R6: 0100
+Round Key 7 -> 010001
+Iteration 7 -> L7: 0100
+Iteration 7 -> R7: 1101
+Round Key 8 -> 010001
+Iteration 8 -> L8: 1101
+Iteration 8 -> R8: 0111
+Round Key 9 -> 101000
+Iteration 9 -> L9: 0111
+Iteration 9 -> R9: 1111
+Round Key 10 -> 000110
+Iteration 10 -> L10: 1111
+Iteration 10 -> R10: 0010
+Round Key 11 -> 110001
+Iteration 11 -> L11: 0010
+Iteration 11 -> R11: 0110
+Round Key 12 -> 001010
+Iteration 12 -> L12: 0110
+Iteration 12 -> R12: 0000
+Round Key 13 -> 000101
+Iteration 13 -> L13: 0000
+Iteration 13 -> R13: 1101
+Round Key 14 -> 110000
+Iteration 14 -> L14: 1101
+Iteration 14 -> R14: 0001
+Round Key 15 -> 010100
+Iteration 15 -> L15: 0001
+Iteration 15 -> R15: 0110
+	COUNTER ENCRYPTED: 11110001  
+Round Key 0 -> 100010
+Iteration 0 -> L0: 0001
+Iteration 0 -> R0: 1000
+Round Key 1 -> 000110
+Iteration 1 -> L1: 1000
+Iteration 1 -> R1: 0111
+Round Key 2 -> 110001
+Iteration 2 -> L2: 0111
+Iteration 2 -> R2: 0011
+Round Key 3 -> 001010
+Iteration 3 -> L3: 0011
+Iteration 3 -> R3: 0110
+Round Key 4 -> 000101
+Iteration 4 -> L4: 0110
+Iteration 4 -> R4: 0010
+Round Key 5 -> 110000
+Iteration 5 -> L5: 0010
+Iteration 5 -> R5: 1010
+Round Key 6 -> 001110
+Iteration 6 -> L6: 1010
+Iteration 6 -> R6: 1110
+Round Key 7 -> 010001
+Iteration 7 -> L7: 1110
+Iteration 7 -> R7: 0111
+Round Key 8 -> 010001
+Iteration 8 -> L8: 0111
+Iteration 8 -> R8: 1110
+Round Key 9 -> 101000
+Iteration 9 -> L9: 1110
+Iteration 9 -> R9: 1110
+Round Key 10 -> 000110
+Iteration 10 -> L10: 1110
+Iteration 10 -> R10: 0100
+Round Key 11 -> 110001
+Iteration 11 -> L11: 0100
+Iteration 11 -> R11: 0111
+Round Key 12 -> 001010
+Iteration 12 -> L12: 0111
+Iteration 12 -> R12: 0000
+Round Key 13 -> 000101
+Iteration 13 -> L13: 0000
+Iteration 13 -> R13: 1100
+Round Key 14 -> 110000
+Iteration 14 -> L14: 1100
+Iteration 14 -> R14: 0010
+Round Key 15 -> 010100
+Iteration 15 -> L15: 0010
+Iteration 15 -> R15: 0101
+	COUNTER ENCRYPTED: 11110002  
+Round Key 0 -> 100010
+Iteration 0 -> L0: 0002
+Iteration 0 -> R0: 0111
+Round Key 1 -> 000110
+Iteration 1 -> L1: 0111
+Iteration 1 -> R1: 0012
+Round Key 2 -> 110001
+Iteration 2 -> L2: 0012
+Iteration 2 -> R2: 1110
+Round Key 3 -> 001010
+Iteration 3 -> L3: 1110
+Iteration 3 -> R3: 1113
+Round Key 4 -> 000101
+Iteration 4 -> L4: 1113
+Iteration 4 -> R4: 1011
+Round Key 5 -> 110000
+Iteration 5 -> L5: 1011
+Iteration 5 -> R5: 0113
+Round Key 6 -> 001110
+Iteration 6 -> L6: 0113
+Iteration 6 -> R6: 0100
+Round Key 7 -> 010001
+Iteration 7 -> L7: 0100
+Iteration 7 -> R7: 1103
+Round Key 8 -> 010001
+Iteration 8 -> L8: 1103
+Iteration 8 -> R8: 0111
+Round Key 9 -> 101000
+Iteration 9 -> L9: 0111
+Iteration 9 -> R9: 1113
+Round Key 10 -> 000110
+Iteration 10 -> L10: 1113
+Iteration 10 -> R10: 0010
+Round Key 11 -> 110001
+Iteration 11 -> L11: 0010
+Iteration 11 -> R11: 0112
+Round Key 12 -> 001010
+Iteration 12 -> L12: 0112
+Iteration 12 -> R12: 0000
+Round Key 13 -> 000101
+Iteration 13 -> L13: 0000
+Iteration 13 -> R13: 1103
+Round Key 14 -> 110000
+Iteration 14 -> L14: 1103
+Iteration 14 -> R14: 0001
+Round Key 15 -> 010100
+Iteration 15 -> L15: 0001
+Iteration 15 -> R15: 0112
+|*------------------------------*|
+ DECRYPTED CIPHERTEXT: ThisIsCTREncryption 
+|*------------------------------*|
+
+
+Please enter e(encrypt) or d(decrypt): E
+Please enter a key within the range of 0-255: 56
+PLEASE ENTER f(fixed) or n(nonce) to continue with your choice of iv
+F
+Please enter plaintext (MAX: 500 chars): TESTTESTTESTTESTTES
+PAD: 5
+BlockCtr: 3
+CURRENT iv -> 11110000
+CURRENT ciphertext -> UDRUTEST
+------pText: UDRU       Right: TEST
+Round Key 0 -> 100010
+Iteration 0 -> L0: TEST
+Iteration 0 -> R0: TDST
+Round Key 1 -> 000110
+Iteration 1 -> L1: TDST
+Iteration 1 -> R1: TERT
+Round Key 2 -> 110001
+Iteration 2 -> L2: TERT
+Iteration 2 -> R2: UDSU
+Round Key 3 -> 001010
+Iteration 3 -> L3: UDSU
+Iteration 3 -> R3: UEST
+Round Key 4 -> 000101
+Iteration 4 -> L4: UEST
+Iteration 4 -> R4: TDRU
+Round Key 5 -> 110000
+Iteration 5 -> L5: TDRU
+Iteration 5 -> R5: UDSU
+Round Key 6 -> 001110
+Iteration 6 -> L6: UDSU
+Iteration 6 -> R6: UDRT
+Round Key 7 -> 010001
+Iteration 7 -> L7: UDRT
+Iteration 7 -> R7: UDSU
+Round Key 8 -> 010001
+Iteration 8 -> L8: UDSU
+Iteration 8 -> R8: UDRU
+Round Key 9 -> 101000
+Iteration 9 -> L9: UDRU
+Iteration 9 -> R9: TESU
+Round Key 10 -> 000110
+Iteration 10 -> L10: TESU
+Iteration 10 -> R10: UDSU
+Round Key 11 -> 110001
+Iteration 11 -> L11: UDSU
+Iteration 11 -> R11: TERU
+Round Key 12 -> 001010
+Iteration 12 -> L12: TERU
+Iteration 12 -> R12: TERT
+Round Key 13 -> 000101
+Iteration 13 -> L13: TERT
+Iteration 13 -> R13: UDRT
+Round Key 14 -> 110000
+Iteration 14 -> L14: UDRT
+Iteration 14 -> R14: TEST
+Round Key 15 -> 010100
+Iteration 15 -> L15: TEST
+Iteration 15 -> R15: TERT
+        COUNTER ENCRYPTED: TESTTERT
+CURRENT iv -> TESTTERT
+CURRENT ciphertext -> TDRTTDST
+------pText: TDRT       Right: TDST
+Round Key 0 -> 100010
+Iteration 0 -> L0: TDST
+Iteration 0 -> R0: TERT
+Round Key 1 -> 000110
+Iteration 1 -> L1: TERT
+Iteration 1 -> R1: UDST
+Round Key 2 -> 110001
+Iteration 2 -> L2: UDST
+Iteration 2 -> R2: TDRT
+Round Key 3 -> 001010
+Iteration 3 -> L3: TDRT
+Iteration 3 -> R3: TERU
+Round Key 4 -> 000101
+Iteration 4 -> L4: TERU
+Iteration 4 -> R4: UERU
+Round Key 5 -> 110000
+Iteration 5 -> L5: UERU
+Iteration 5 -> R5: TERT
+Round Key 6 -> 001110
+Iteration 6 -> L6: TERT
+Iteration 6 -> R6: UESU
+Round Key 7 -> 010001
+Iteration 7 -> L7: UESU
+Iteration 7 -> R7: UDRU
+Round Key 8 -> 010001
+Iteration 8 -> L8: UDRU
+Iteration 8 -> R8: UDRU
+Round Key 9 -> 101000
+Iteration 9 -> L9: UDRU
+Iteration 9 -> R9: TERU
+Round Key 10 -> 000110
+Iteration 10 -> L10: TERU
+Iteration 10 -> R10: TDRU
+Round Key 11 -> 110001
+Iteration 11 -> L11: TDRU
+Iteration 11 -> R11: TEST
+Round Key 12 -> 001010
+Iteration 12 -> L12: TEST
+Iteration 12 -> R12: TDSU
+Round Key 13 -> 000101
+Iteration 13 -> L13: TDSU
+Iteration 13 -> R13: TDRT
+Round Key 14 -> 110000
+Iteration 14 -> L14: TDRT
+Iteration 14 -> R14: UERT
+Round Key 15 -> 010100
+Iteration 15 -> L15: UERT
+Iteration 15 -> R15: UEST
+        COUNTER ENCRYPTED: TESTTERTUERTUEST
+Stole pad: TUEST
+PAD IS: TUEST
+New String: TESTTESTTESTTESTTES00000
+PAD IS: TUEST
+New Cipher: UDSTUEST
+CURRENT iv -> UERTUEST
+CURRENT ciphertext -> UDSTUEST
+------pText: UDST       Right: UEST
+Round Key 0 -> 100010
+Iteration 0 -> L0: UEST
+Iteration 0 -> R0: TERT
+Round Key 1 -> 000110
+Iteration 1 -> L1: TERT
+Iteration 1 -> R1: TEST
+Round Key 2 -> 110001
+Iteration 2 -> L2: TEST
+Iteration 2 -> R2: UEST
+Round Key 3 -> 001010
+Iteration 3 -> L3: UEST
+Iteration 3 -> R3: UDSU
+Round Key 4 -> 000101
+Iteration 4 -> L4: UDSU
+Iteration 4 -> R4: TDSU
+Round Key 5 -> 110000
+Iteration 5 -> L5: TDSU
+Iteration 5 -> R5: UERU
+Round Key 6 -> 001110
+Iteration 6 -> L6: UERU
+Iteration 6 -> R6: UDST
+Round Key 7 -> 010001
+Iteration 7 -> L7: UDST
+Iteration 7 -> R7: TEST
+Round Key 8 -> 010001
+Iteration 8 -> L8: TEST
+Iteration 8 -> R8: UDST
+Round Key 9 -> 101000
+Iteration 9 -> L9: UDST
+Iteration 9 -> R9: UERT
+Round Key 10 -> 000110
+Iteration 10 -> L10: UERT
+Iteration 10 -> R10: UEST
+Round Key 11 -> 110001
+Iteration 11 -> L11: UEST
+Iteration 11 -> R11: UERU
+Round Key 12 -> 001010
+Iteration 12 -> L12: UERU
+Iteration 12 -> R12: TERT
+Round Key 13 -> 000101
+Iteration 13 -> L13: TERT
+Iteration 13 -> R13: TDRT
+Round Key 14 -> 110000
+Iteration 14 -> L14: TDRT
+Iteration 14 -> R14: UDSU
+Round Key 15 -> 010100
+Iteration 15 -> L15: UDSU
+Iteration 15 -> R15: UDRT
+        COUNTER ENCRYPTED: TESTTERTUERTUESTUDSUUDRT
+|*------------------------------*|
+| ENCRYPTED PLAINTEXT: TESTTERTUERTUESTUDS  |
+|*------------------------------*|
+
+
+Please enter e(encrypt) or d(decrypt): e
+Please enter a key within the range of 0-255: 45
+PLEASE ENTER f(fixed) or n(nonce) to continue with your choice of iv: n
+Pick a number from 0-9 to indicate placement in nonce list:     3
+
+Please enter plaintext (MIN: 8 chars - MAX: 500 chars): thisisatest
+------pText: uhir       Right: is`t
+Round Key 0 -> 001110
+Iteration 0 -> L0: is`t
+Iteration 0 -> R0: tiis
+Round Key 1 -> 101010
+Iteration 1 -> L1: tiis
+Iteration 1 -> R1: hsau
+Round Key 2 -> 100011
+Iteration 2 -> L2: hsau
+Iteration 2 -> R2: uhir
+Round Key 3 -> 100011
+Iteration 3 -> L3: uhir
+Iteration 3 -> R3: hr`t
+Round Key 4 -> 000111
+Iteration 4 -> L4: hr`t
+Iteration 4 -> R4: uhhr
+Round Key 5 -> 010101
+Iteration 5 -> L5: uhhr
+Iteration 5 -> R5: irau
+Round Key 6 -> 011100
+Iteration 6 -> L6: irau
+Iteration 6 -> R6: uhis
+Round Key 7 -> 011100
+Iteration 7 -> L7: uhis
+Iteration 7 -> R7: ir`t
+Round Key 8 -> 111000
+Iteration 8 -> L8: ir`t
+Iteration 8 -> R8: tihs
+Round Key 9 -> 101010
+Iteration 9 -> L9: tihs
+Iteration 9 -> R9: ir`t
+Round Key 10 -> 100011
+Iteration 10 -> L10: ir`t
+Iteration 10 -> R10: uhhr
+Round Key 11 -> 100011
+Iteration 11 -> L11: uhhr
+Iteration 11 -> R11: hs`u
+Round Key 12 -> 000111
+Iteration 12 -> L12: hs`u
+Iteration 12 -> R12: uhhs
+Round Key 13 -> 010101
+Iteration 13 -> L13: uhhs
+Iteration 13 -> R13: hs`t
+Round Key 14 -> 011100
+Iteration 14 -> L14: hs`t
+Iteration 14 -> R14: uiis
+Round Key 15 -> 111000
+Iteration 15 -> L15: uiis
+Iteration 15 -> R15: hsat
+------pText: drus       Right: hsat
+Round Key 0 -> 001110
+Iteration 0 -> L0: hsat
+Iteration 0 -> R0: estr
+Round Key 1 -> 101010
+Iteration 1 -> L1: estr
+Iteration 1 -> R1: irau
+Round Key 2 -> 100011
+Iteration 2 -> L2: irau
+Iteration 2 -> R2: erur
+Round Key 3 -> 100011
+Iteration 3 -> L3: erur
+Iteration 3 -> R3: is`t
+Round Key 4 -> 000111
+Iteration 4 -> L4: is`t
+Iteration 4 -> R4: drts
+Round Key 5 -> 010101
+Iteration 5 -> L5: drts
+Iteration 5 -> R5: irau
+Round Key 6 -> 011100
+Iteration 6 -> L6: irau
+Iteration 6 -> R6: drur
+Round Key 7 -> 011100
+Iteration 7 -> L7: drur
+Iteration 7 -> R7: hr`u
+Round Key 8 -> 111000
+Iteration 8 -> L8: hr`u
+Iteration 8 -> R8: esur
+Round Key 9 -> 101010
+Iteration 9 -> L9: esur
+Iteration 9 -> R9: hsat
+Round Key 10 -> 100011
+Iteration 10 -> L10: hsat
+Iteration 10 -> R10: drus
+Round Key 11 -> 100011
+Iteration 11 -> L11: drus
+Iteration 11 -> R11: is`u
+Round Key 12 -> 000111
+Iteration 12 -> L12: is`u
+Iteration 12 -> R12: erts
+Round Key 13 -> 010101
+Iteration 13 -> L13: erts
+Iteration 13 -> R13: is`t
+Round Key 14 -> 011100
+Iteration 14 -> L14: is`t
+Iteration 14 -> R14: drur
+Round Key 15 -> 111000
+Iteration 15 -> L15: drur
+Iteration 15 -> R15: hsat
+The following ciphertext was created using
+the nonce iv from index 3 of the list
+
+|*------------------------------*|
+| ENCRYPTED PLAINTEXT: drurhsatuii  |
+|*------------------------------*|
+
+Please enter e(encrypt) or d(decrypt): d
+Please enter a key within the range of 0-255: 45
+PLEASE ENTER f(fixed) or n(nonce) to continue with your choice of iv: n
+Pick a number from 0-9 to indicate placement in nonce list:     3
+
+Please enter ciphertext (MIN: 8 chars - MAX: 500 chars): drurhsatuii
+Round Key 15 -> 111000
+Iteration 15 -> L15: is`t
+Iteration 15 -> R15: drur
+Round Key 14 -> 011100
+Iteration 14 -> L14: erts
+Iteration 14 -> R14: is`t
+Round Key 13 -> 010101
+Iteration 13 -> L13: is`u
+Iteration 13 -> R13: erts
+Round Key 12 -> 000111
+Iteration 12 -> L12: drus
+Iteration 12 -> R12: is`u
+Round Key 11 -> 100011
+Iteration 11 -> L11: hsat
+Iteration 11 -> R11: drus
+Round Key 10 -> 100011
+Iteration 10 -> L10: esur
+Iteration 10 -> R10: hsat
+Round Key 9 -> 101010
+Iteration 9 -> L9: hr`u
+Iteration 9 -> R9: esur
+Round Key 8 -> 111000
+Iteration 8 -> L8: drur
+Iteration 8 -> R8: hr`u
+Round Key 7 -> 011100
+Iteration 7 -> L7: irau
+Iteration 7 -> R7: drur
+Round Key 6 -> 011100
+Iteration 6 -> L6: drts
+Iteration 6 -> R6: irau
+Round Key 5 -> 010101
+Iteration 5 -> L5: is`t
+Iteration 5 -> R5: drts
+Round Key 4 -> 000111
+Iteration 4 -> L4: erur
+Iteration 4 -> R4: is`t
+Round Key 3 -> 100011
+Iteration 3 -> L3: irau
+Iteration 3 -> R3: erur
+Round Key 2 -> 100011
+Iteration 2 -> L2: estr
+Iteration 2 -> R2: irau
+Round Key 1 -> 101010
+Iteration 1 -> L1: hsat
+Iteration 1 -> R1: estr
+Round Key 0 -> 001110
+Iteration 0 -> L0: drus
+Iteration 0 -> R0: hsat
+Round Key 15 -> 111000
+Iteration 15 -> L15: hs`t
+Iteration 15 -> R15: uiis
+Round Key 14 -> 011100
+Iteration 14 -> L14: uhhs
+Iteration 14 -> R14: hs`t
+Round Key 13 -> 010101
+Iteration 13 -> L13: hs`u
+Iteration 13 -> R13: uhhs
+Round Key 12 -> 000111
+Iteration 12 -> L12: uhhr
+Iteration 12 -> R12: hs`u
+Round Key 11 -> 100011
+Iteration 11 -> L11: ir`t
+Iteration 11 -> R11: uhhr
+Round Key 10 -> 100011
+Iteration 10 -> L10: tihs
+Iteration 10 -> R10: ir`t
+Round Key 9 -> 101010
+Iteration 9 -> L9: ir`t
+Iteration 9 -> R9: tihs
+Round Key 8 -> 111000
+Iteration 8 -> L8: uhis
+Iteration 8 -> R8: ir`t
+Round Key 7 -> 011100
+Iteration 7 -> L7: irau
+Iteration 7 -> R7: uhis
+Round Key 6 -> 011100
+Iteration 6 -> L6: uhhr
+Iteration 6 -> R6: irau
+Round Key 5 -> 010101
+Iteration 5 -> L5: hr`t
+Iteration 5 -> R5: uhhr
+Round Key 4 -> 000111
+Iteration 4 -> L4: uhir
+Iteration 4 -> R4: hr`t
+Round Key 3 -> 100011
+Iteration 3 -> L3: hsau
+Iteration 3 -> R3: uhir
+Round Key 2 -> 100011
+Iteration 2 -> L2: tiis
+Iteration 2 -> R2: hsau
+Round Key 1 -> 101010
+Iteration 1 -> L1: is`t
+Iteration 1 -> R1: tiis
+Round Key 0 -> 001110
+Iteration 0 -> L0: uhir
+Iteration 0 -> R0: is`t
+|*------------------------------*|
+| DECRYPTED CIPHERTEXT: thisisatest |
+|*------------------------------*|
+

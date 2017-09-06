@@ -1,0 +1,7 @@
+Compiling Instructions 
+gcc -o CTRMDES-PRNG CTRMDES-PRNG.c  -> compile source code to binary file: CTRMDES-PRNG
+./CTRMDES-PRNG  -> run binary file: CTRMDES-PRNG
+
+Compiling Instructions 
+gcc -o CTRAES-PRNG CTRAES-PRNG.c  -> compile source code to binary file: CTRAES-PRNG
+./CTRAES-PRNG  -> run binary file: CTRAES-PRNG

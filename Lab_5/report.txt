@@ -1,0 +1,123 @@
+
+4 of the Statistical tests used
+
+1-Cumulative Sums
+2-Block Frequency
+3-Frequency Test
+4-Linear Complexity
+
+We chose these statistical tests because we thought that we could cover a lot more possibilities since each tests 
+focuses on a very different aspect to testing. These tests also proved effective with smaller blocks of random bit patterns.
+
+
+freq.txt
+________________________________________________________________________________
+
+		FILE = input.txt		ALPHA = 0.0100
+________________________________________________________________________________
+
+		BITSREAD = 16 0s = 6 1s = 10
+
+
+finalAnalysisReport.txt
+		
+------------------------------------------------------------------------------
+RESULTS FOR THE UNIFORMITY OF P-VALUES AND THE PROPORTION OF PASSING SEQUENCES
+------------------------------------------------------------------------------
+   generator is <input.txt>
+------------------------------------------------------------------------------
+ C1  C2  C3  C4  C5  C6  C7  C8  C9 C10  P-VALUE  PROPORTION  STATISTICAL TEST
+------------------------------------------------------------------------------
+  0   0   0   1   0   0   0   0   0   0     ----       1/1       Frequency
+  0   0   0   1   0   0   0   0   0   0     ----       1/1       BlockFrequency
+  0   0   0   0   0   0   1   0   0   0     ----       1/1       CumulativeSums
+  0   0   1   0   0   0   0   0   0   0     ----       1/1       CumulativeSums
+  0   0   0   0   0   0   0   0   0   1     ----       1/1       LinearComplexity
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+The minimum pass rate for each statistical test with the exception of the
+random excursion (variant) test is approximately = 0 for a
+sample size = 1 binary sequences.
+
+For further guidelines construct a probability table using the MAPLE program
+provided in the addendum section of the documentation.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+Tests Conducted:
+	
+Cumulative Sums:
+	Tests to see if the cumulative sum of the partial sequences in the tested sequence is too little or too large to
+ the behavior that we would like to see from a cumulative sum for random sequences.
+
+		      CUMULATIVE SUMS (FORWARD) TEST
+		-------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		-------------------------------------------
+		(a) The maximum partial sum = 4
+		-------------------------------------------
+SUCCESS		p_value = 0.631921
+
+		      CUMULATIVE SUMS (REVERSE) TEST
+		-------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		-------------------------------------------
+		(a) The maximum partial sum = 6
+		-------------------------------------------
+SUCCESS		p_value = 0.267222
+
+   
+Block Frequency:
+	This test determines whether the frequency of 1s in an X-bit block is around X/2
+
+Stats.txt
+
+			BLOCK FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) Chi^2           = 1.000000
+		(b) # of substrings = 1
+		(c) block length    = 16
+		(d) Note: 0 bits were discarded.
+		---------------------------------------------
+SUCCESS		p_value = 0.317311
+
+-----------------------------------------------------------
+
+Linear Complexity
+	Tests to see if the sequence is complex enough to be considered random.
+	
+	
+Stats.txt
+	-----------------------------------------------------
+	L I N E A R  C O M P L E X I T Y
+-----------------------------------------------------
+	M (substring length)     = 8
+	N (number of substrings) = 2
+-----------------------------------------------------
+        F R E Q U E N C Y                            
+-----------------------------------------------------
+  C0   C1   C2   C3   C4   C5   C6    CHI2    P-value
+-----------------------------------------------------
+	Note: 0 bits were discarded!
+   0    0    0    1    1    0    0  1.000106 0.985608
+   
+   
+ -----------------------------------------------------------
+ 
+ Frequency Test:
+	This test determines whether the frequency of 1s in an X-bit stream is around X/2
+				      FREQUENCY TEST
+		---------------------------------------------
+		COMPUTATIONAL INFORMATION:
+		---------------------------------------------
+		(a) The nth partial sum = 4
+		(b) S_n/n               = 0.250000
+		---------------------------------------------
+SUCCESS		p_value = 0.317311
+
+
+In conclusion from our p-values we can determine that we are developing a randomizer that can be improved upon.

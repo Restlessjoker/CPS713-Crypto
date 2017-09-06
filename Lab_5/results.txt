@@ -1,0 +1,1118 @@
+results.txt
+
+We did the the bonus work for developing a seed using keystrokes and time.
+
+
+Below is the output for running our pseudorandom generators and the statistical tests required of us for this lab.
+Note: sAes takes in binary input only, were as mDes may take in other values as input
+
+ 
+					BONUS
+				-Key Board Strokes-
+./CTRMDES-PRNG
+Please choose type of seed value k(keyboard), t(time), m(mouse): k
+Please enter a key within the range of 0-255: 2
+Please enter a Seed Value(Exactly 1 Block: 8 chars): r
+Please enter a Seed Value that is approximately 8 chars long: thisis
+Please enter a Seed Value that is approximately 8 chars long: thisisit
+Please enter number of pseudorandom bits to generate: 4
+thisisit
+Round Key 0 -> 010000
+Iteration 0 -> L0: isit
+Iteration 0 -> R0: uihs
+Round Key 1 -> 010000
+Iteration 1 -> L1: uihs
+Iteration 1 -> R1: hrit
+Round Key 2 -> 001000
+Iteration 2 -> L2: hrit
+Iteration 2 -> R2: thhr
+Round Key 3 -> 000000
+Iteration 3 -> L3: thhr
+Iteration 3 -> R3: hshu
+Round Key 4 -> 100000
+Iteration 4 -> L4: hshu
+Iteration 4 -> R4: thhs
+Round Key 5 -> 000010
+Iteration 5 -> L5: thhs
+Iteration 5 -> R5: hsiu
+Round Key 6 -> 000001
+Iteration 6 -> L6: hsiu
+Iteration 6 -> R6: uihr
+Round Key 7 -> 000000
+Iteration 7 -> L7: uihr
+Iteration 7 -> R7: iriu
+Round Key 8 -> 000000
+Iteration 8 -> L8: iriu
+Iteration 8 -> R8: tiis
+Round Key 9 -> 000100
+Iteration 9 -> L9: tiis
+Iteration 9 -> R9: hsiu
+Round Key 10 -> 010000
+Iteration 10 -> L10: hsiu
+Iteration 10 -> R10: uhhs
+Round Key 11 -> 001000
+Iteration 11 -> L11: uhhs
+Iteration 11 -> R11: hrit
+Round Key 12 -> 000000
+Iteration 12 -> L12: hrit
+Iteration 12 -> R12: tiis
+Round Key 13 -> 100000
+Iteration 13 -> L13: tiis
+Iteration 13 -> R13: irit
+Round Key 14 -> 000010
+Iteration 14 -> L14: irit
+Iteration 14 -> R14: thhs
+Round Key 15 -> 000010
+Iteration 15 -> L15: thhs
+Iteration 15 -> R15: irht
+thisisit
+Iteration: 0 pseudorandom bits: thhsirht
+uihrhrhu
+uihrhrhu
+Round Key 0 -> 010000
+Iteration 0 -> L0: hrhu
+Iteration 0 -> R0: uhir
+Round Key 1 -> 010000
+Iteration 1 -> L1: uhir
+Iteration 1 -> R1: isiu
+Round Key 2 -> 001000
+Iteration 2 -> L2: isiu
+Iteration 2 -> R2: uihs
+Round Key 3 -> 000000
+Iteration 3 -> L3: uihs
+Iteration 3 -> R3: isiu
+Round Key 4 -> 100000
+Iteration 4 -> L4: isiu
+Iteration 4 -> R4: uhhs
+Round Key 5 -> 000010
+Iteration 5 -> L5: uhhs
+Iteration 5 -> R5: hrht
+Round Key 6 -> 000001
+Iteration 6 -> L6: hrht
+Iteration 6 -> R6: uhhs
+Round Key 7 -> 000000
+Iteration 7 -> L7: uhhs
+Iteration 7 -> R7: hsit
+Round Key 8 -> 000000
+Iteration 8 -> L8: hsit
+Iteration 8 -> R8: tiis
+Round Key 9 -> 000100
+Iteration 9 -> L9: tiis
+Iteration 9 -> R9: irit
+Round Key 10 -> 010000
+Iteration 10 -> L10: irit
+Iteration 10 -> R10: uhhs
+Round Key 11 -> 001000
+Iteration 11 -> L11: uhhs
+Iteration 11 -> R11: isiu
+Round Key 12 -> 000000
+Iteration 12 -> L12: isiu
+Iteration 12 -> R12: tiis
+Round Key 13 -> 100000
+Iteration 13 -> L13: tiis
+Iteration 13 -> R13: hsiu
+Round Key 14 -> 000010
+Iteration 14 -> L14: hsiu
+Iteration 14 -> R14: uiis
+Round Key 15 -> 000010
+Iteration 15 -> L15: uiis
+Iteration 15 -> R15: hsht
+uihrhrhu
+Iteration: 1 pseudorandom bits: uiishsht
+thisisit
+thisisit
+Round Key 0 -> 010000
+Iteration 0 -> L0: isit
+Iteration 0 -> R0: uihs
+Round Key 1 -> 010000
+Iteration 1 -> L1: uihs
+Iteration 1 -> R1: hrit
+Round Key 2 -> 001000
+Iteration 2 -> L2: hrit
+Iteration 2 -> R2: thhr
+Round Key 3 -> 000000
+Iteration 3 -> L3: thhr
+Iteration 3 -> R3: hshu
+Round Key 4 -> 100000
+Iteration 4 -> L4: hshu
+Iteration 4 -> R4: thhs
+Round Key 5 -> 000010
+Iteration 5 -> L5: thhs
+Iteration 5 -> R5: hsiu
+Round Key 6 -> 000001
+Iteration 6 -> L6: hsiu
+Iteration 6 -> R6: uihr
+Round Key 7 -> 000000
+Iteration 7 -> L7: uihr
+Iteration 7 -> R7: iriu
+Round Key 8 -> 000000
+Iteration 8 -> L8: iriu
+Iteration 8 -> R8: tiis
+Round Key 9 -> 000100
+Iteration 9 -> L9: tiis
+Iteration 9 -> R9: hsiu
+Round Key 10 -> 010000
+Iteration 10 -> L10: hsiu
+Iteration 10 -> R10: uhhs
+Round Key 11 -> 001000
+Iteration 11 -> L11: uhhs
+Iteration 11 -> R11: hrit
+Round Key 12 -> 000000
+Iteration 12 -> L12: hrit
+Iteration 12 -> R12: tiis
+Round Key 13 -> 100000
+Iteration 13 -> L13: tiis
+Iteration 13 -> R13: irit
+Round Key 14 -> 000010
+Iteration 14 -> L14: irit
+Iteration 14 -> R14: thhs
+Round Key 15 -> 000010
+Iteration 15 -> L15: thhs
+Iteration 15 -> R15: irht
+thisisit
+Iteration: 2 pseudorandom bits: thhsirht
+uihrhrhu
+uihrhrhu
+Round Key 0 -> 010000
+Iteration 0 -> L0: hrhu
+Iteration 0 -> R0: uhir
+Round Key 1 -> 010000
+Iteration 1 -> L1: uhir
+Iteration 1 -> R1: isiu
+Round Key 2 -> 001000
+Iteration 2 -> L2: isiu
+Iteration 2 -> R2: uihs
+Round Key 3 -> 000000
+Iteration 3 -> L3: uihs
+Iteration 3 -> R3: isiu
+Round Key 4 -> 100000
+Iteration 4 -> L4: isiu
+Iteration 4 -> R4: uhhs
+Round Key 5 -> 000010
+Iteration 5 -> L5: uhhs
+Iteration 5 -> R5: hrht
+Round Key 6 -> 000001
+Iteration 6 -> L6: hrht
+Iteration 6 -> R6: uhhs
+Round Key 7 -> 000000
+Iteration 7 -> L7: uhhs
+Iteration 7 -> R7: hsit
+Round Key 8 -> 000000
+Iteration 8 -> L8: hsit
+Iteration 8 -> R8: tiis
+Round Key 9 -> 000100
+Iteration 9 -> L9: tiis
+Iteration 9 -> R9: irit
+Round Key 10 -> 010000
+Iteration 10 -> L10: irit
+Iteration 10 -> R10: uhhs
+Round Key 11 -> 001000
+Iteration 11 -> L11: uhhs
+Iteration 11 -> R11: isiu
+Round Key 12 -> 000000
+Iteration 12 -> L12: isiu
+Iteration 12 -> R12: tiis
+Round Key 13 -> 100000
+Iteration 13 -> L13: tiis
+Iteration 13 -> R13: hsiu
+Round Key 14 -> 000010
+Iteration 14 -> L14: hsiu
+Iteration 14 -> R14: uiis
+Round Key 15 -> 000010
+Iteration 15 -> L15: uiis
+Iteration 15 -> R15: hsht
+uihrhrhu
+Iteration: 3 pseudorandom bits: uiishsht
+thisisit
+|*------------------------------*|
+ ENCRYPTED PLAINTEXT: thhsirhtuiishshtthhsirhtuiishsht  
+|*------------------------------*|
+
+				-Bonus-
+				-Time-
+
+ ./CTRMDES-PRNG
+Please choose type of seed value k(keyboard), t(time), m(mouse): t
+Please enter a key within the range of 0-255: 56
+505491
+Please enter number of pseudorandom bits to generate: 3
+50549100
+Round Key 0 -> 100010
+Iteration 0 -> L0: 9100
+Iteration 0 -> R0: 5054
+Round Key 1 -> 000110
+Iteration 1 -> L1: 5054
+Iteration 1 -> R1: 9001
+Round Key 2 -> 110001
+Iteration 2 -> L2: 9001
+Iteration 2 -> R2: 4145
+Round Key 3 -> 001010
+Iteration 3 -> L3: 4145
+Iteration 3 -> R3: 8110
+Round Key 4 -> 000101
+Iteration 4 -> L4: 8110
+Iteration 4 -> R4: 4144
+Round Key 5 -> 110000
+Iteration 5 -> L5: 4144
+Iteration 5 -> R5: 8011
+Round Key 6 -> 001110
+Iteration 6 -> L6: 8011
+Iteration 6 -> R6: 5054
+Round Key 7 -> 010001
+Iteration 7 -> L7: 5054
+Iteration 7 -> R7: 9000
+Round Key 8 -> 010001
+Iteration 8 -> L8: 9000
+Iteration 8 -> R8: 5054
+Round Key 9 -> 101000
+Iteration 9 -> L9: 5054
+Iteration 9 -> R9: 8010
+Round Key 10 -> 000110
+Iteration 10 -> L10: 8010
+Iteration 10 -> R10: 5044
+Round Key 11 -> 110001
+Iteration 11 -> L11: 5044
+Iteration 11 -> R11: 9101
+Round Key 12 -> 001010
+Iteration 12 -> L12: 9101
+Iteration 12 -> R12: 4054
+Round Key 13 -> 000101
+Iteration 13 -> L13: 4054
+Iteration 13 -> R13: 9101
+Round Key 14 -> 110000
+Iteration 14 -> L14: 9101
+Iteration 14 -> R14: 4055
+Round Key 15 -> 010100
+Iteration 15 -> L15: 4055
+Iteration 15 -> R15: 9011
+50549100
+Iteration: 0 pseudorandom bits: 40559011
+41458011
+41458011
+Round Key 0 -> 100010
+Iteration 0 -> L0: 8011
+Iteration 0 -> R0: 5055
+Round Key 1 -> 000110
+Iteration 1 -> L1: 5055
+Iteration 1 -> R1: 9100
+Round Key 2 -> 110001
+Iteration 2 -> L2: 9100
+Iteration 2 -> R2: 4145
+Round Key 3 -> 001010
+Iteration 3 -> L3: 4145
+Iteration 3 -> R3: 8011
+Round Key 4 -> 000101
+Iteration 4 -> L4: 8011
+Iteration 4 -> R4: 4055
+Round Key 5 -> 110000
+Iteration 5 -> L5: 4055
+Iteration 5 -> R5: 8101
+Round Key 6 -> 001110
+Iteration 6 -> L6: 8101
+Iteration 6 -> R6: 4155
+Round Key 7 -> 010001
+Iteration 7 -> L7: 4155
+Iteration 7 -> R7: 8101
+Round Key 8 -> 010001
+Iteration 8 -> L8: 8101
+Iteration 8 -> R8: 4054
+Round Key 9 -> 101000
+Iteration 9 -> L9: 4054
+Iteration 9 -> R9: 8100
+Round Key 10 -> 000110
+Iteration 10 -> L10: 8100
+Iteration 10 -> R10: 5054
+Round Key 11 -> 110001
+Iteration 11 -> L11: 5054
+Iteration 11 -> R11: 8000
+Round Key 12 -> 001010
+Iteration 12 -> L12: 8000
+Iteration 12 -> R12: 4145
+Round Key 13 -> 000101
+Iteration 13 -> L13: 4145
+Iteration 13 -> R13: 9101
+Round Key 14 -> 110000
+Iteration 14 -> L14: 9101
+Iteration 14 -> R14: 4144
+Round Key 15 -> 010100
+Iteration 15 -> L15: 4144
+Iteration 15 -> R15: 8100
+41458011
+Iteration: 1 pseudorandom bits: 41448100
+50549100
+50549100
+Round Key 0 -> 100010
+Iteration 0 -> L0: 9100
+Iteration 0 -> R0: 5054
+Round Key 1 -> 000110
+Iteration 1 -> L1: 5054
+Iteration 1 -> R1: 9001
+Round Key 2 -> 110001
+Iteration 2 -> L2: 9001
+Iteration 2 -> R2: 4145
+Round Key 3 -> 001010
+Iteration 3 -> L3: 4145
+Iteration 3 -> R3: 8110
+Round Key 4 -> 000101
+Iteration 4 -> L4: 8110
+Iteration 4 -> R4: 4144
+Round Key 5 -> 110000
+Iteration 5 -> L5: 4144
+Iteration 5 -> R5: 8011
+Round Key 6 -> 001110
+Iteration 6 -> L6: 8011
+Iteration 6 -> R6: 5054
+Round Key 7 -> 010001
+Iteration 7 -> L7: 5054
+Iteration 7 -> R7: 9000
+Round Key 8 -> 010001
+Iteration 8 -> L8: 9000
+Iteration 8 -> R8: 5054
+Round Key 9 -> 101000
+Iteration 9 -> L9: 5054
+Iteration 9 -> R9: 8010
+Round Key 10 -> 000110
+Iteration 10 -> L10: 8010
+Iteration 10 -> R10: 5044
+Round Key 11 -> 110001
+Iteration 11 -> L11: 5044
+Iteration 11 -> R11: 9101
+Round Key 12 -> 001010
+Iteration 12 -> L12: 9101
+Iteration 12 -> R12: 4054
+Round Key 13 -> 000101
+Iteration 13 -> L13: 4054
+Iteration 13 -> R13: 9101
+Round Key 14 -> 110000
+Iteration 14 -> L14: 9101
+Iteration 14 -> R14: 4055
+Round Key 15 -> 010100
+Iteration 15 -> L15: 4055
+Iteration 15 -> R15: 9011
+50549100
+Iteration: 2 pseudorandom bits: 40559011
+41458011
+|*------------------------------*|
+ ENCRYPTED PLAINTEXT: 405590114144810040559011  
+|*------------------------------*|
+
+
+			-Statistical Test-
+
+  G E N E R A T O R    S E L E C T I O N 
+           ______________________________________
+
+    [0] Input File                 [1] Linear Congruential
+    [2] Quadratic Congruential I   [3] Quadratic Congruential II
+    [4] Cubic Congruential         [5] XOR
+    [6] Modular Exponentiation     [7] Blum-Blum-Shub
+    [8] Micali-Schnorr             [9] G Using SHA-1
+
+   Enter Choice: ^C
+ ./assess 16
+           G E N E R A T O R    S E L E C T I O N 
+           ______________________________________
+
+    [0] Input File                 [1] Linear Congruential
+    [2] Quadratic Congruential I   [3] Quadratic Congruential II
+    [4] Cubic Congruential         [5] XOR
+    [6] Modular Exponentiation     [7] Blum-Blum-Shub
+    [8] Micali-Schnorr             [9] G Using SHA-1
+
+   Enter Choice: 0
+
+
+		User Prescribed Input File: test.txt
+
+                S T A T I S T I C A L   T E S T S
+                _________________________________
+
+    [01] Frequency                       [02] Block Frequency
+    [03] Cumulative Sums                 [04] Runs
+    [05] Longest Run of Ones             [06] Rank
+    [07] Discrete Fourier Transform      [08] Nonperiodic Template Matchings
+    [09] Overlapping Template Matchings  [10] Universal Statistical
+    [11] Approximate Entropy             [12] Random Excursions
+    [13] Random Excursions Variant       [14] Serial
+    [15] Linear Complexity
+
+         INSTRUCTIONS
+            Enter 0 if you DO NOT want to apply all of the
+            statistical tests to each sequence and 1 if you DO.
+
+   Enter Choice: 1
+
+        P a r a m e t e r   A d j u s t m e n t s
+        -----------------------------------------
+    [1] Block Frequency Test - block length(M):         128
+    [2] NonOverlapping Template Test - block length(m): 9
+    [3] Overlapping Template Test - block length(m):    9
+    [4] Approximate Entropy Test - block length(m):     10
+    [5] Serial Test - block length(m):                  16
+    [6] Linear Complexity Test - block length(M):       500
+
+   Select Test (0 to continue): 0
+
+   How many bitstreams? 16
+
+   Input File Format:
+    [0] ASCII - A sequence of ASCII 0's and 1's
+    [1] Binary - Each byte in data file contains 8 bits of data
+
+   Select input mode:  0
+
+     Statistical Testing In Progress.........
+
+Segmentation fault: 11
+ ./assess 16
+           G E N E R A T O R    S E L E C T I O N 
+           ______________________________________
+
+    [0] Input File                 [1] Linear Congruential
+    [2] Quadratic Congruential I   [3] Quadratic Congruential II
+    [4] Cubic Congruential         [5] XOR
+    [6] Modular Exponentiation     [7] Blum-Blum-Shub
+    [8] Micali-Schnorr             [9] G Using SHA-1
+
+   Enter Choice: 0
+
+
+		User Prescribed Input File: test.txt
+
+                S T A T I S T I C A L   T E S T S
+                _________________________________
+
+    [01] Frequency                       [02] Block Frequency
+    [03] Cumulative Sums                 [04] Runs
+    [05] Longest Run of Ones             [06] Rank
+    [07] Discrete Fourier Transform      [08] Nonperiodic Template Matchings
+    [09] Overlapping Template Matchings  [10] Universal Statistical
+    [11] Approximate Entropy             [12] Random Excursions
+    [13] Random Excursions Variant       [14] Serial
+    [15] Linear Complexity
+
+         INSTRUCTIONS
+            Enter 0 if you DO NOT want to apply all of the
+            statistical tests to each sequence and 1 if you DO.
+
+   Enter Choice: 0
+
+         INSTRUCTIONS
+            Enter a 0 or 1 to indicate whether or not the numbered statistical
+            test should be applied to each sequence.
+
+      123456789111111
+               012345
+      1
+1
+1
+1
+1
+1
+^C
+./assess 16
+           G E N E R A T O R    S E L E C T I O N 
+           ______________________________________
+
+    [0] Input File                 [1] Linear Congruential
+    [2] Quadratic Congruential I   [3] Quadratic Congruential II
+    [4] Cubic Congruential         [5] XOR
+    [6] Modular Exponentiation     [7] Blum-Blum-Shub
+    [8] Micali-Schnorr             [9] G Using SHA-1
+
+   Enter Choice: 1
+
+
+                S T A T I S T I C A L   T E S T S
+                _________________________________
+
+    [01] Frequency                       [02] Block Frequency
+    [03] Cumulative Sums                 [04] Runs
+    [05] Longest Run of Ones             [06] Rank
+    [07] Discrete Fourier Transform      [08] Nonperiodic Template Matchings
+    [09] Overlapping Template Matchings  [10] Universal Statistical
+    [11] Approximate Entropy             [12] Random Excursions
+    [13] Random Excursions Variant       [14] Serial
+    [15] Linear Complexity
+
+         INSTRUCTIONS
+            Enter 0 if you DO NOT want to apply all of the
+            statistical tests to each sequence and 1 if you DO.
+
+   Enter Choice: ^C
+./assess 16
+           G E N E R A T O R    S E L E C T I O N 
+           ______________________________________
+
+    [0] Input File                 [1] Linear Congruential
+    [2] Quadratic Congruential I   [3] Quadratic Congruential II
+    [4] Cubic Congruential         [5] XOR
+    [6] Modular Exponentiation     [7] Blum-Blum-Shub
+    [8] Micali-Schnorr             [9] G Using SHA-1
+
+   Enter Choice: 0
+
+
+		User Prescribed Input File: test.txt
+
+                S T A T I S T I C A L   T E S T S
+                _________________________________
+
+    [01] Frequency                       [02] Block Frequency
+    [03] Cumulative Sums                 [04] Runs
+    [05] Longest Run of Ones             [06] Rank
+    [07] Discrete Fourier Transform      [08] Nonperiodic Template Matchings
+    [09] Overlapping Template Matchings  [10] Universal Statistical
+    [11] Approximate Entropy             [12] Random Excursions
+    [13] Random Excursions Variant       [14] Serial
+    [15] Linear Complexity
+
+         INSTRUCTIONS
+            Enter 0 if you DO NOT want to apply all of the
+            statistical tests to each sequence and 1 if you DO.
+
+   Enter Choice: 1
+
+        P a r a m e t e r   A d j u s t m e n t s
+        -----------------------------------------
+    [1] Block Frequency Test - block length(M):         128
+    [2] NonOverlapping Template Test - block length(m): 9
+    [3] Overlapping Template Test - block length(m):    9
+    [4] Approximate Entropy Test - block length(m):     10
+    [5] Serial Test - block length(m):                  16
+    [6] Linear Complexity Test - block length(M):       500
+
+   Select Test (0 to continue): 1
+
+   Enter Block Frequency Test block length: 8
+
+        P a r a m e t e r   A d j u s t m e n t s
+        -----------------------------------------
+    [1] Block Frequency Test - block length(M):         8
+    [2] NonOverlapping Template Test - block length(m): 9
+    [3] Overlapping Template Test - block length(m):    9
+    [4] Approximate Entropy Test - block length(m):     10
+    [5] Serial Test - block length(m):                  16
+    [6] Linear Complexity Test - block length(M):       500
+
+   Select Test (0 to continue): 0
+
+   How many bitstreams? 8
+
+   Input File Format:
+    [0] ASCII - A sequence of ASCII 0's and 1's
+    [1] Binary - Each byte in data file contains 8 bits of data
+
+   Select input mode:  0
+
+     Statistical Testing In Progress.........
+
+Segmentation fault: 11
+./assess 16
+           G E N E R A T O R    S E L E C T I O N 
+           ______________________________________
+
+    [0] Input File                 [1] Linear Congruential
+    [2] Quadratic Congruential I   [3] Quadratic Congruential II
+    [4] Cubic Congruential         [5] XOR
+    [6] Modular Exponentiation     [7] Blum-Blum-Shub
+    [8] Micali-Schnorr             [9] G Using SHA-1
+
+   Enter Choice: 0
+
+
+		User Prescribed Input File: test.txt
+
+                S T A T I S T I C A L   T E S T S
+                _________________________________
+
+    [01] Frequency                       [02] Block Frequency
+    [03] Cumulative Sums                 [04] Runs
+    [05] Longest Run of Ones             [06] Rank
+    [07] Discrete Fourier Transform      [08] Nonperiodic Template Matchings
+    [09] Overlapping Template Matchings  [10] Universal Statistical
+    [11] Approximate Entropy             [12] Random Excursions
+    [13] Random Excursions Variant       [14] Serial
+    [15] Linear Complexity
+
+         INSTRUCTIONS
+            Enter 0 if you DO NOT want to apply all of the
+            statistical tests to each sequence and 1 if you DO.
+
+   Enter Choice: 1
+
+        P a r a m e t e r   A d j u s t m e n t s
+        -----------------------------------------
+    [1] Block Frequency Test - block length(M):         128
+    [2] NonOverlapping Template Test - block length(m): 9
+    [3] Overlapping Template Test - block length(m):    9
+    [4] Approximate Entropy Test - block length(m):     10
+    [5] Serial Test - block length(m):                  16
+    [6] Linear Complexity Test - block length(M):       500
+
+   Select Test (0 to continue): 0
+
+   How many bitstreams? 16
+
+   Input File Format:
+    [0] ASCII - A sequence of ASCII 0's and 1's
+    [1] Binary - Each byte in data file contains 8 bits of data
+
+   Select input mode:  1
+
+     Statistical Testing In Progress.........
+
+Segmentation fault: 11
+
+
+---------------------------------------------------------------------------------------------------------
+
+./CTRAES-PRNG
+Please choose type of seed value k(keyboard), t(time), m(mouse)
+k
+Please enter a key within the range of 0-65,535: 56
+Please enter a Seed Value(MAX: 500 chars) (Only binary values(1s and 0s): 1100011100101010
+Please enter number of pseudorandom bits to generate (Max of 16): 16
+Passed In:
+1100 0111
+0001 0010
+ADDED: 0----0
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+adding 0 to start at index 4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 1----3
+ADDED: 0----4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 0----5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+Added 0 at 4
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 1----5
+ADDED: 0----6
+Added to newBinary 1
+Added to newBinary 0
+Added to newBinary 1
+Added to newBinary 0
+Added to newBinary 0
+Added to newBinary 0
+First Window
+10100
+Made it here
+Remaining
+00111
+TEST: 2  0 0 4 2
+index: 3
+1110
+ADDED: 0----0
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+adding 0 to start at index 4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 0----4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+ADDED: 1----2
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 0----5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+Added 0 at 4
+ADDED: 1----3
+ADDED: 0----4
+ADDED: 0----5
+ADDED: 0----6
+Added to newBinary 1
+Added to newBinary 1
+Added to newBinary 0
+Added to newBinary 0
+Assignment:
+1100
+ADDED: 0----0
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+adding 0 to start at index 4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 0----4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 1----4
+ADDED: 0----5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+Added 0 at 4
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 0----5
+ADDED: 0----6
+Added to newBinary 1
+Added to newBinary 0
+Added to newBinary 0
+Added to newBinary 0
+Added to newBinary 0
+First Window
+10000
+Made it here
+Remaining
+00011
+TEST: 3  2 2 0 3
+index: 4
+0011
+ADDED: 1----0
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+adding 0 to start at index 4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 0----4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+ADDED: 1----2
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 0----5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+Added 0 at 4
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 0----5
+ADDED: 0----6
+Added to newBinary 1
+Added to newBinary 0
+Added to newBinary 1
+Assignment:
+101
+ADDED: 0----0
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+adding 0 to start at index 4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+ADDED: 1----1
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 0----4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 0----5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+Added 0 at 4
+ADDED: 1----3
+ADDED: 0----4
+ADDED: 0----5
+ADDED: 0----6
+Added to newBinary 1
+Added to newBinary 0
+Added to newBinary 1
+Added to newBinary 0
+Assignment:
+1010
+ADDED: 0----0
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+adding 0 to start at index 4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 0----4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 1----4
+ADDED: 0----5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+Added 0 at 4
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 1----5
+ADDED: 0----6
+Added to newBinary 1
+Added to newBinary 1
+Added to newBinary 0
+Added to newBinary 0
+Added to newBinary 0
+Added to newBinary 0
+First Window
+11000
+Made it here
+Remaining
+01011
+Values: 1 4 1
+New Window
+10110
+Made it here
+Remaining
+00101
+TEST: 2  1 1 2 3
+index: 4
+0101
+ADDED: 0----0
+ADDED: 0----1
+ADDED: 1----2
+ADDED: 0----3
+adding 0 to start at index 4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 0----4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 1----4
+ADDED: 0----5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+Added 0 at 4
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 0----5
+ADDED: 0----6
+Added to newBinary 1
+Added to newBinary 0
+Added to newBinary 1
+Added to newBinary 0
+Added to newBinary 0
+First Window
+10100
+Made it here
+Remaining
+00111
+TEST: 2  1 1 2 2
+index: 4
+0111
+ADDED: 0----0
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+adding 0 to start at index 4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+ADDED: 0----1
+ADDED: 0----2
+ADDED: 0----3
+ADDED: 0----4
+adding 0 to start at index 5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+ADDED: 1----2
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 0----5
+adding 0 to start at index 6
+Added 0 at 6
+Added 0 at 5
+Added 0 at 4
+ADDED: 0----3
+ADDED: 0----4
+ADDED: 0----5
+ADDED: 0----6
+Added to newBinary 1
+Added to newBinary 0
+Added to newBinary 0
+Assignment:
+100
+TestMixedClumns:
+1110
+Passed In:
+0001 0000
+1111 1101
+|*------------------------------*|
+ PSEUDORANDOM BITS: 0010111110001111
+|*------------------------------*|
+
+----------------Tests----------------------
+
+Tests for input.txt
+
+	0010111110001111
+
+	
+Input to Assess
+
+	./assess 16
+           G E N E R A T O R    S E L E C T I O N
+           ______________________________________
+
+    [0] Input File                 [1] Linear Congruential
+    [2] Quadratic Congruential I   [3] Quadratic Congruential II
+    [4] Cubic Congruential         [5] XOR
+    [6] Modular Exponentiation     [7] Blum-Blum-Shub
+    [8] Micali-Schnorr             [9] G Using SHA-1
+
+   Enter Choice: 0
+
+
+                User Prescribed Input File: input.txt
+
+                S T A T I S T I C A L   T E S T S
+                _________________________________
+
+    [01] Frequency                       [02] Block Frequency
+    [03] Cumulative Sums                 [04] Runs
+    [05] Longest Run of Ones             [06] Rank
+    [07] Discrete Fourier Transform      [08] Nonperiodic Template Matchings
+    [09] Overlapping Template Matchings  [10] Universal Statistical
+    [11] Approximate Entropy             [12] Random Excursions
+    [13] Random Excursions Variant       [14] Serial
+    [15] Linear Complexity
+
+         INSTRUCTIONS
+            Enter 0 if you DO NOT want to apply all of the
+            statistical tests to each sequence and 1 if you DO.
+
+   Enter Choice: 0
+
+         INSTRUCTIONS
+            Enter a 0 or 1 to indicate whether or not the numbered statistical
+            test should be applied to each sequence.
+
+      123456789111111
+               012345
+      111000000000001
+
+
+        P a r a m e t e r   A d j u s t m e n t s
+        -----------------------------------------
+    [1] Block Frequency Test - block length(M):         128
+    [2] Linear Complexity Test - block length(M):       500
+
+   Select Test (0 to continue): 1
+
+   Enter Block Frequency Test block length: 16
+
+        P a r a m e t e r   A d j u s t m e n t s
+        -----------------------------------------
+    [1] Block Frequency Test - block length(M):         16
+    [2] Linear Complexity Test - block length(M):       500
+
+   Select Test (0 to continue): 2
+
+   Enter Linear Complexity Test block Length: 8
+
+        P a r a m e t e r   A d j u s t m e n t s
+        -----------------------------------------
+    [1] Block Frequency Test - block length(M):         16
+    [2] Linear Complexity Test - block length(M):       8
+
+   Select Test (0 to continue): 0
+
+   How many bitstreams? 1
+
+   Input File Format:
+    [0] ASCII - A sequence of ASCII 0's and 1's
+    [1] Binary - Each byte in data file contains 8 bits of data
+
+   Select input mode:  0
+
+     Statistical Testing In Progress.........
+
+     Statistical Testing Complete!!!!!!!!!!!!
+
+
+	 
+freq.txt
+________________________________________________________________________________
+
+		FILE = input.txt		ALPHA = 0.0100
+________________________________________________________________________________
+
+		BITSREAD = 16 0s = 6 1s = 10
+
+
+finalAnalysisReport.txt
+		
+------------------------------------------------------------------------------
+RESULTS FOR THE UNIFORMITY OF P-VALUES AND THE PROPORTION OF PASSING SEQUENCES
+------------------------------------------------------------------------------
+   generator is <input.txt>
+------------------------------------------------------------------------------
+ C1  C2  C3  C4  C5  C6  C7  C8  C9 C10  P-VALUE  PROPORTION  STATISTICAL TEST
+------------------------------------------------------------------------------
+  0   0   0   1   0   0   0   0   0   0     ----       1/1       Frequency
+  0   0   0   1   0   0   0   0   0   0     ----       1/1       BlockFrequency
+  0   0   0   0   0   0   1   0   0   0     ----       1/1       CumulativeSums
+  0   0   1   0   0   0   0   0   0   0     ----       1/1       CumulativeSums
+  0   0   0   0   0   0   0   0   0   1     ----       1/1       LinearComplexity
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+The minimum pass rate for each statistical test with the exception of the
+random excursion (variant) test is approximately = 0 for a
+sample size = 1 binary sequences.
+
+For further guidelines construct a probability table using the MAPLE program
+provided in the addendum section of the documentation.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	

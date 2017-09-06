@@ -1,0 +1,7 @@
+Compiling Instructions 
+gcc -o CTRMDES CTRMDES.c  -> compile source code to binary file: CTRMDES
+./CTRMDES  -> run binary file: CTRMDES
+
+Compiling Instructions 
+gcc -o CBCMDES CBCMDES.c  -> compile source code to binary file: CBCMDES
+./CBCMDES  -> run binary file: CBCMDES
